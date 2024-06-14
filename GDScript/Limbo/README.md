@@ -14,4 +14,4 @@
 **Known Problems**
 - The player might not be able to jump high enough in sidescroller sections if monitor has high refresh rate.
   
- EVERY FOLDER IN THE "SCENES" FOLDER WILL CONTAIN THE SCRIPTS RELATED TO THA FOLDER (A SCRIPT IS A .GD FILE).
+ EVERY FOLDER IN THE "SCENES" FOLDER WILL CONTAIN THE SCRIPTS RELATED TO THAT FOLDER (EACH SCRIPT IS A .GD FILE).
