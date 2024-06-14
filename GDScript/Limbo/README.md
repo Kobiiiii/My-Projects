@@ -13,3 +13,4 @@
 
 **Known Problems**
 - The player might not be able to jump high enough in sidescroller sections if monitor has high refresh rate.
+GO TO THE SCENES FILE AND YOU WILL FIND EVERY SCRIPT IN EACH FOLDER (SCRIPTS ARE .GD).
