@@ -1,11 +1,84 @@
-body {
-    background-color: blueviolet;
+body{
+    background-color: #1c1729;
+    /*background-image: linear-gradient(to top, #1c1729, #33235d);*/
+    background-attachment: fixed; /*this is so that the gradient does not duplicate and scrop with the page*/
 }
 
-img {
-    align-content: center;
+.Logo {
+    width: auto;
+    padding: 20px;
+    border-bottom: 0.5px solid white;
+    image-rendering: pixelated;
+    animation: extend 1s ease 0s;
 }
 
-.nerd {
-    background-color: red;
+.kobiLogo {
+    display: block; /* So that the image can be treated like a div */
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    scale: 2;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font: 2em Arial, sans-serif;
+    animation: appear 0.7s ease 0s 1;
+}
+
+button {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 1px;
+    width: 200px;
+    box-shadow: 0px 3px;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s; /* transitions only happen when these values change*/
+    animation: appear 0.7s ease 0s 1;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.gamesButton > button{
+    display: block;
+    margin: auto;
+    scale: 4;
+}
+.gamesSection{
+    padding: 50px;
+    border-bottom: 0.5px solid white;
+}
+
+li {
+    display: inline-block;
+    scale: 3;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.otherButtons {
+    text-align: center;
+}
+
+/* Animations */
+@keyframes extend {
+    from {width: 0%;}
+    to {width: 97%;}
+}
+
+@keyframes appear {
+    0% {transform: translateY(50%);opacity: 0;}
+    to{transform: translateY(0%); opacity: 1;}
+
 }
