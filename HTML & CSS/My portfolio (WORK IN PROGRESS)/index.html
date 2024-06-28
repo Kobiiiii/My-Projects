@@ -3,12 +3,14 @@
 <html>
 <head> <!--This is optional but essentially is information about the data in the html file.-->
     <title>Nutter butter</title>
-    <link rel="styleSheet" href="New Text Document.css"> <!--"rel is short for relationship." -->
+    <link rel="styleSheet" href="New Text Document.css"> <!--rel is short for relationship. -->
+    <script src="https://kit.fontawesome.com/9935efa432.js" crossorigin="anonymous"></script> <!--To have access to icons.-->
 </head>
 <body>
     <div class="Logo">
     <image src="content/Kobi's Official Logo.png" alt="KobiLogo" class="kobiLogo">
     </div>
+
     
     <div class="introduction"> <!--Class can be used as a name for css.-->
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat exercitationem voluptates deleniti blanditiis dolorum debitis saepe accusantium aperiam quibusdam magni ipsum fugit nemo quae sed commodi provident, nisi eaque dolorem!</p>
@@ -16,16 +18,21 @@
 
     <div class="gamesSection">
         <div class="gamesButton">
-            <button>Games</button>
+            <a href="games.html"><button class="nut">Games</button></a>
         </div>
     </div>
 
-    <div class="other">
+    <div class="information">
         <p>Lorem ipsum dolor sit.</p>
-        <ul class="otherButtons">
-            <li><button>Art</button></li>
-            <li><button>Music</button></li>
-        </ul>
     </div>
+    <div class="buttonRow"> 
+        <button>Art</button>
+        <button>Music</button>
+    </div>
+
+    <div class="socialMedia">
+        <a href="https://twitter.com"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+    </div>
+
 </body>
 </html>
