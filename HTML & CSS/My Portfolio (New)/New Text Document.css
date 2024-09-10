@@ -1,0 +1,83 @@
+body{
+    background-color: #1c1729;
+    /*background-image: linear-gradient(to top, #1c1729, #33235d);*/
+    background-attachment: fixed; /*this is so that the gradient does not duplicate and scrop with the page*/
+}
+
+/* Header */
+.Logo {
+    color: #D6679D;
+
+    font-family: Daydream;
+    text-align: center;
+    font-size: 6.3vw;/* vw means viewport width so the size of text will adjust on the window size */
+    -webkit-text-stroke: 8px #ffde23;
+
+    line-height: 20px; /* to seperate "aka kobi" */
+
+    z-index: 2;
+
+    user-select: none; /* so user can't select text */
+ }
+
+.titles {
+    text-align: center;
+
+    font-family: Daydream;
+    color:#D6679D;
+    font-size: 5vw;
+    transition: opacity 1s;
+}
+ .Subtitle {
+    font-size: 4.5vw;
+ }
+.card {
+    display: inline;
+}
+
+.card:hover {
+    border-left: #D6679D;
+}
+
+.cardHead{
+    position: absolute;
+    font-size: x-large;
+
+    background-color: #D6679D;
+    color: white;
+
+    border: none;
+
+    height: 70px;
+
+
+    font-family: Daydream;
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+}
+
+.cardContent {
+    position: absolute;
+    transform: translateY(70px); /* To make sure that all card content is below the card head*/
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+
+.cardRow {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    column-gap: 500px;
+    row-gap: 30px;
+}
+
+@font-face { /* Creating a custom font with a name to refer to and the file directory */
+    font-family: Daydream ;
+    src: url(content/Daydream.ttf);
+}
+
+@keyframes swap {
+    0% {opacity: 100%;}
+    50% {opacity: 0%;}
+    100% {opacity: 100%;}
+}

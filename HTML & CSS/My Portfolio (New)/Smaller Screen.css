@@ -1,0 +1,27 @@
+body{
+    background-color: #1c1729;
+    /*background-image: linear-gradient(to top, #1c1729, #33235d);*/
+    background-attachment: fixed; /*this is so that the gradient does not duplicate and scrop with the page*/
+}
+
+/* Header */
+.Logo {
+    font-family: Daydream;
+    text-align: center;
+    font-size: 6vw;
+
+    line-height: 20px;
+
+    z-index: 2;
+
+    user-select: none; /* so user can't select text */
+ }
+
+ .Subtitle {
+    font-size: 2vm;
+ }
+
+@font-face { /* Creating a custom font with a name to refer to and the file directory */
+    font-family: Daydream ;
+    src: url(content/Daydream.ttf);
+}
