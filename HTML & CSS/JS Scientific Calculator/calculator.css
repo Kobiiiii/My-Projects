@@ -1,0 +1,85 @@
+body {
+    background-image: linear-gradient(to bottom, #1c1729, #33235d);
+    background-attachment: fixed;
+}
+
+.calc {
+    margin: auto;
+    margin-top: 25%;
+    scale: 4;
+    opacity: 0.8;
+    display: block;
+    width: 150px;
+}
+
+.screen {
+    width: 140px;
+    display: block;
+    text-align: left;
+    background-color: #ab90e6;
+
+    overflow-x: hidden;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* Button Stuff */
+.buttons {
+    display: grid;
+    gap: 4.5px;
+    background-color: #17112b;
+    height: 90px;
+    width: 120px;
+    padding: 10px;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+button {
+    box-shadow: 1px 2px 2px #120d24, -0.5px -1px 2px#291b4b;
+    text-shadow: 1px 1px #120d24;
+    font-size:x-small;
+    color: white;
+    background-color: #1d1538;
+    height: 20px; /* Set height */
+    width: 20px; /* Set width to the same value as height */
+    text-align: center;
+    border-radius: 50%; /* Make it a circle */
+    border: none;
+    transition: all ease 0.1s;
+}
+
+button:hover {
+    cursor:pointer;
+    scale: 1.07;
+    background-color: #dfd2ff;
+}
+
+button:active {
+    background-color: #120c25;
+    scale: 0.7;
+
+}
+
+#equals {
+    background-color: #594585;
+}
+
+#equals:hover {
+    background-color: #98ff7e;
+}
+
+#equals:active {
+    background-color: #120c25;
+    scale: 0.7;
+}
+
+#ac:hover {
+    background-color: #ff2828;
+}
+
+@keyframes bounce {
+    from {scale: 1.5;}
+}
