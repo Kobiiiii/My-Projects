@@ -1,3 +1,5 @@
+**Made on 18 August 2024**
+
 **About The Project**
 - This is a project as an introduction to JS using DOM API.
 
