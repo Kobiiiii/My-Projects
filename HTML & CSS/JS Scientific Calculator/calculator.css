@@ -7,44 +7,61 @@ body {
     margin: auto;
     margin-top: 25%;
     scale: 4;
-    opacity: 0.8;
     display: block;
     width: 150px;
 }
 
+
 .screen {
     width: 140px;
+    height: 50px;
     display: block;
-    text-align: left;
-    background-color: #ab90e6;
 
-    overflow-x: hidden;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: x-large;
+
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    
 
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.screen > p {
+    transform: translate(10px,-10px);
+    opacity: 1;
+    color: white;
 }
 
 /* Button Stuff */
 .buttons {
     display: grid;
+    grid-template-columns: repeat(4, 20px);
+
     gap: 4.5px;
-    background-color: #17112b;
-    height: 90px;
+    height: 120px;
     width: 120px;
     padding: 10px;
 
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
 }
 
 button {
-    box-shadow: 1px 2px 2px #120d24, -0.5px -1px 2px#291b4b;
-    text-shadow: 1px 1px #120d24;
+    /*box-shadow: 1px 2px 2px #120d24, -0.5px -1px 2px#291b4b;*/
+    text-shadow: 0.5px 1px #120d24;
     font-size:x-small;
     color: white;
     background-color: #1d1538;
-    height: 20px; /* Set height */
-    width: 20px; /* Set width to the same value as height */
+
     text-align: center;
     border-radius: 50%; /* Make it a circle */
     border: none;
@@ -63,6 +80,11 @@ button:active {
 
 }
 
+.Zero{
+    grid-column: span 2;
+    border-radius: 500px;
+}
+
 #equals {
     background-color: #594585;
 }
@@ -76,10 +98,20 @@ button:active {
     scale: 0.7;
 }
 
+#ac {
+    grid-column: span 3;
+    border-radius: 500px;
+}
+
 #ac:hover {
     background-color: #ff2828;
 }
 
 @keyframes bounce {
     from {scale: 1.5;}
+}
+
+@keyframes answered {
+    0% {color:#98ff7e;}
+    100%{color: white;}
 }
