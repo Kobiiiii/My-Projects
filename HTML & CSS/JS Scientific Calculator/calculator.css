@@ -16,7 +16,7 @@ body {
 
     border-radius: 20px;
 
-
+    animation: appear ease 0.5s;
 
 }
 
@@ -185,3 +185,8 @@ button:active {
     0% {color:#98ff7e;}
     100%{color: white;}
 } 
+
+@keyframes appear {
+    0% {opacity: 0%; transform: translateY(50px);}
+    100% {opacity: 100%; transform: translateY(0px);}
+}
