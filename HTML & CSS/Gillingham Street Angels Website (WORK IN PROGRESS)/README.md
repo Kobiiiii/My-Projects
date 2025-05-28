@@ -1,9 +1,12 @@
-**# Made on 17 May 2025**
+# Made on 17 May 2025
 
 **About The Project**
 
-This is the HTML & CSS Scripts for my Javascript Scientific Calculator.
+- This Project is meant to be for a college project to work on a website for my local charity.
+- I used JavaScript to work on my own JavaScript framework, which specialises in dynamic UI elements.
+- Worked with JSON files to implement a miniature backend for holding and presenting the dynamic UI elements.
 
-Experimenting with different UI Styles to learn more about UI/UX.
+** Known Issues **
 
-Start with making a normal calculator first and then turn it into a scientific one later.
+- The website doesn't have mobile support yet.
+- The responsiveness of the website may look weird on larger monitors
