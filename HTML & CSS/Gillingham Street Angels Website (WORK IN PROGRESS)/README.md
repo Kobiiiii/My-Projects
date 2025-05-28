@@ -6,7 +6,7 @@
 - I used JavaScript to work on my own JavaScript framework, which specialises in dynamic UI elements.
 - Worked with JSON files to implement a miniature backend for holding and presenting the dynamic UI elements.
 
-** Known Issues **
+**Known Issues**
 
 - The website doesn't have mobile support yet.
 - The responsiveness of the website may look weird on larger monitors
