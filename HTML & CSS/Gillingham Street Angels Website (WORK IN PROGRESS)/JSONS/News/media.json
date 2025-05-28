@@ -1,0 +1,9 @@
+{
+    "mediaContainter1": [
+        {"markup" : "videos/gaming.mp4"}
+    ],
+
+    "mediaContainter2": [
+        {"markup" : "images/logo.jpg"}
+    ]
+}

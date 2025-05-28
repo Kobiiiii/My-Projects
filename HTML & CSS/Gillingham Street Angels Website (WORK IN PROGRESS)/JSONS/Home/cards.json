@@ -1,0 +1,96 @@
+{
+ "Panel1": [
+    {
+      "id":0,
+      "description": "Raising awareness on important local concerns.",
+      "image": "images/Vector.svg"
+    },
+    {
+      "id":1,
+      "description": "Reducing health inequalities through enabling people to make healthier lifestyle choices.",
+      "image": "images/Heart.svg"
+    },
+    {
+      "id":2,
+      "description": "Programme of health & wellbeing support delivered via our primarily volunteer-led range of support and services.",
+      "image": "images/union.svg"
+    },
+    {
+      "id":3,
+      "description": "Providing a programme of social activities that people can feel hopeful about and look forward to.",
+      "image": "images/volume.svg"
+    },
+    {
+      "id":4,
+      "description": "We aim to make accessing community activities and health and wellbeing services and appointments as ‘stress-free’ as possible for the people we help.",
+      "image": "images/users.svg"
+    },
+    {
+      "id":5,
+      "description": "Offering meaningful opportunities to connect with others and volunteer opportunities to help those who are vulnerable, isolated and in need.",
+      "image": "images/hand-raised.svg"
+    }
+],
+
+  "Panel2": [
+    {
+      "id":0,
+      "description": "Medway has 980 people rated as homeless. This is the highest number across all of Kent.",
+      "image": "images/Ellipse.svg"
+    },
+    {
+      "id":1,
+      "description": "542 of these are children in temporary accommodation.",
+      "image": "images/Ellipse.svg"
+    },
+    {
+      "id":2,
+      "description": "A staggering 55%.",
+      "image": "images/Ellipse.svg"
+    }
+],
+
+"Panel3": [
+    {
+      "id":0,
+      "description": "Let‘s talk Rubbish! Working with Medway Norse & Medway Council’s 3 Recycling Centres we’ve recycled 65 tonnes of items headed to landfill to be repurposed and reused. That’s the weightdof around 21 Elephants!",
+      "image": "images/union.svg"
+    },
+    {
+      "id":1,
+      "description": "Opened 3 New School Uniform Banks for families to help with rising costs of school uniforms.",
+      "image": "images/union.svg"
+    },
+    {
+      "id":2,
+      "description": "Supporting People in Medway no matter what their circumstances are.",
+      "image": "images/union.svg"
+    }
+],
+
+"Panel4": [
+    {
+      "id":0,
+      "description": "Donate",
+      "image": "images/users.svg"
+    },
+    {
+      "id":1,
+      "description": "Sign Up",
+      "image": "images/users.svg"
+    },
+    {
+      "id":2,
+      "description": "Join a Group",
+      "image": "images/users.svg"
+    },
+        {
+      "id":3,
+      "description": "Volunteer with us",
+      "image": "images/users.svg"
+    }
+]
+
+
+
+}

@@ -1,0 +1,37 @@
+{
+ "Panel1": [
+    {
+      "id":0,
+      "item": "Electronics",
+      "image": "images/Users.svg"
+    },
+    {
+      "id":1,
+      "item": "Clothing",
+      "image": "images/Users.svg"
+    },
+    {
+      "id":2,
+      "item": "Lifestyle",
+      "image": "images/Users.svg"
+    },
+    {
+      "id":3,
+      "item": "Entertainment",
+      "image": "images/Users.svg"
+    },
+    {
+      "id":4,
+      "item": "Cooking",
+      "image": "images/Users.svg"
+    },
+    {
+      "id":5,
+      "item": "Furniture",
+      "image": "images/Users.svg"
+    }
+]
+
+
+
+}

@@ -1,0 +1,14 @@
+{
+ "Panel1": [
+    {
+      "id":0,
+      "title": "Funiture sale is out Now!",
+      "description": "all furniture is not 50% off! Get it now before the sale is over",
+      "price": "£30",
+      "image": "images/Vector.svg"
+    }
+]
+
+
+
+}
