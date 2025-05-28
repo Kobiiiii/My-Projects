@@ -1,0 +1,108 @@
+{
+ "Panel1": [
+    {
+      "id":0,
+      "title": "'Worst start to a decade for heart health for 50 years' warning as we launch new strategy",
+      "description": "“Nationally, Shelter’s research shows that at least 271,000 people are recorded as homeless in England,including 123,000 children. That equates to a national rate of one in 208 people.",
+      "date": "May 12 2026",
+      "image": "images/people.jpg"
+    },
+    {
+      "id":1,
+      "title": "'Worst start to a decade for heart health for 50 years' warning as we launch new strategy",
+      "description": "“Nationally, Shelter’s research shows that at least 271,000 people are recorded as homeless in England,including 123,000 children. That equates to a national rate of one in 208 people.",
+      "date": "May 12 2026",
+      "image": "images/Heart.svg"
+    },
+    {
+      "id":2,
+      "title": "'Worst start to a decade for heart health for 50 years' warning as we launch new strategy",
+      "description": "“Nationally, Shelter’s research shows that at least 271,000 people are recorded as homeless in England,including 123,000 children. That equates to a national rate of one in 208 people.",
+      "date": "May 12 2026",
+      "image": "images/union.svg"
+    },
+    {
+      "id":3,
+      "title": "'Worst start to a decade for heart health for 50 years' warning as we launch new strategy",
+      "description": "“Nationally, Shelter’s research shows that at least 271,000 people are recorded as homeless in England,including 123,000 children. That equates to a national rate of one in 208 people.",
+      "date": "May 12 2026",
+      "image": "images/volume.svg"
+    },
+    {
+      "id":4,
+      "title": "'Worst start to a decade for heart health for 50 years' warning as we launch new strategy",
+      "description": "“Nationally, Shelter’s research shows that at least 271,000 people are recorded as homeless in England,including 123,000 children. That equates to a national rate of one in 208 people.",
+      "date": "May 12 2026",
+      "image": "images/users.svg"
+    },
+    {
+      "id":5,
+      "title": "'Worst start to a decade for heart health for 50 years' warning as we launch new strategy",
+      "description": "“Nationally, Shelter’s research shows that at least 271,000 people are recorded as homeless in England,including 123,000 children. That equates to a national rate of one in 208 people.",
+      "date": "May 12 2026",
+      "image": "images/hand-raised.svg"
+    }
+],
+
+  "Panel2": [
+    {
+      "id":0,
+      "description": "Medway has 980 people rated as homeless. This is the highest number across all of Kent.",
+      "image": "images/Ellipse.svg"
+    },
+    {
+      "id":1,
+      "description": "542 of these are children in temporary accommodation.",
+      "image": "images/Ellipse.svg"
+    },
+    {
+      "id":2,
+      "description": "A staggering 55%.",
+      "image": "images/Ellipse.svg"
+    }
+],
+
+"Panel3": [
+    {
+      "id":0,
+      "description": "Let‘s talk Rubbish! Working with Medway Norse & Medway Council’s 3 Recycling Centres we’ve recycled 65 tonnes of items headed to landfill to be repurposed and reused. That’s the weightdof around 21 Elephants!",
+      "image": "images/union.svg"
+    },
+    {
+      "id":1,
+      "description": "Opened 3 New School Uniform Banks for families to help with rising costs of school uniforms.",
+      "image": "images/union.svg"
+    },
+    {
+      "id":2,
+      "description": "Supporting People in Medway no matter what their circumstances are.",
+      "image": "images/union.svg"
+    }
+],
+
+"Panel4": [
+    {
+      "id":0,
+      "description": "Donate",
+      "image": "images/users.svg"
+    },
+    {
+      "id":1,
+      "description": "Sign Up",
+      "image": "images/users.svg"
+    },
+    {
+      "id":2,
+      "description": "Join a Group",
+      "image": "images/users.svg"
+    },
+        {
+      "id":3,
+      "description": "Volunteer with us",
+      "image": "images/users.svg"
+    }
+]
+
+
+
+}

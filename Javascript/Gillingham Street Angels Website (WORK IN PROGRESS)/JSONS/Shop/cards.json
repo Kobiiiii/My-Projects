@@ -1,0 +1,23 @@
+{
+ "Panel1": [
+    {
+      "id":0,
+      "title": "Helping the community",
+      "description": "By donating the items that you no longer use, it means that you are helping the Gillingham Street Angels community by putting your items in someone elses hands. ",
+      "image": "images/Heart.svg"
+    },
+    {
+      "id":1,
+      "title": "Earn Money",
+      "description": "You can earn money when selling items that you no longer need. Not only are you getting rid of things that you don't need, you earn money doing so.",
+      "image": "images/Heart.svg"
+    },
+    {
+      "id":1,
+      "title": "Earn Money",
+      "description": "You can earn money when selling items that you no longer need. Not only are you getting rid of things that you don't need, you earn money doing so.",
+      "image": "images/Heart.svg"
+    }
+]
+
+}
