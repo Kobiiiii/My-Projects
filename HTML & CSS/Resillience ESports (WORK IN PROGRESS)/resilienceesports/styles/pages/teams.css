@@ -1,0 +1,125 @@
+.container:nth-of-type(2) {margin-bottom: 150px; top: 50px;}
+
+/* Just for centering reasons, all headings and buttons will be 100% width */
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.subheading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    top: 10%;
+    left: 0;
+}
+
+/* Because the responsive css is for the homepage specifically. I will put this here for the other pages */
+@media (width <= 1000px) {
+
+    .heading {
+        margin-top: -25%;
+        left: 0;
+    }
+
+    .subheading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: -20%;
+        margin-left: 15%;
+    }
+
+    
+}
+
+/* Having the team grid and cards would be logical to be put in the layour and components css files*/
+/* I put them in here as this page is the only page where those components are going to be in */
+/* Also, when making a new card, DO NOT FORGET TO MAKE IT POSITION RELATVIE */
+.teamGrid {
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+
+.teamSlider {
+    display: flex;
+    gap: 20px;
+}
+
+.memberCard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:end;
+
+    border-color: var(--spurple);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+
+    overflow:hidden;
+
+    border-radius: 20px;
+
+    height: 600px;
+    width: 400px;
+}
+
+.memberCard > img {
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+}
+
+.memberCard > .name, .role {
+    position: absolute;
+    color: white;
+    z-index: 30;
+}
+
+.role {
+    margin-bottom: 10%;
+}
+
+.memberCard > .name {
+    font-size: 4vmin;
+    margin-bottom: 20%;
+}
+.memberCard > .overlay {
+    height: 100%;
+    width: 100%;
+}
+
+/* Filter Members*/
+.filterMembers {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    margin-bottom: 30px;
+}
+
+.filterMembers > button {
+    width: 15vw;
+    height: 3vw;
+
+    border-radius: 100px;
+
+    font-size: 2vmin;
+    background-color: var(--otherblue);
+}
+

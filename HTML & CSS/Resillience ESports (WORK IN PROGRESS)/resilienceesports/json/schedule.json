@@ -1,0 +1,157 @@
+{
+    "/index.html": [
+        {
+            "id":1,
+            "game": "Overwatch",
+            "time": "22:00 - 23:00",
+            "title": "The special tournament",
+            "location": "Gillingham",
+            "team1": "Team Resilience",
+            "team2": "Team Resilience"
+        },
+
+        {
+            "id":2,
+            "game": "Overwatch",
+            "time": "22:00 - 23:00",
+            "title": "The special tournament",
+            "location": "Gillingham",
+            "team1": "Team Resilience",
+            "team2": "Team Resilience"
+        },
+
+        {
+            "id":3,
+            "game": "Overwatch",
+            "time": "22:00 - 23:00",
+            "title": "The special tournament",
+            "location": "Gillingham",
+            "team1": "Team Resilience",
+            "team2": "Team Resilience"
+        }
+    ],
+
+    "/teams.html": [
+        {
+            "id":1,
+            "game": "Overwatch",
+            "time": "22:00 - 23:00",
+            "title": "The special tournament",
+            "location": "Gillingham",
+            "team1": "Team Resilience",
+            "team2": "Team Resilience"
+        },
+
+        {
+            "id":2,
+            "game": "Overwatch",
+            "time": "22:00 - 23:00",
+            "title": "The special tournament",
+            "location": "Gillingham",
+            "team1": "Team Resilience",
+            "team2": "Team Resilience"
+        },
+
+        {
+            "id":3,
+            "game": "Overwatch",
+            "time": "22:00 - 23:00",
+            "title": "The special tournament",
+            "location": "Gillingham",
+            "team1": "Team Resilience",
+            "team2": "Team Resilience"
+        },
+
+                {
+            "id":4,
+            "game": "Overwatch",
+            "time": "22:00 - 23:00",
+            "title": "The special tournament",
+            "location": "Gillingham",
+            "team1": "Team Resilience",
+            "team2": "Team Resilience"
+        },
+
+        {
+            "id":5,
+            "game": "Overwatch",
+            "time": "22:00 - 23:00",
+            "title": "The special tournament",
+            "location": "Gillingham",
+            "team1": "Team Resilience",
+            "team2": "Team Resilience"
+        },
+
+        {
+            "id":6,
+            "game": "Overwatch",
+            "time": "22:00 - 23:00",
+            "title": "The special tournament",
+            "location": "Gillingham",
+            "team1": "Team Resilience",
+            "team2": "Team Resilience"
+        }
+    ],
+
+    "/schedule.html": [
+        {
+            "id":1,
+            "game": "Overwatch",
+            "time": "22:00 - 23:00",
+            "title": "The special tournament",
+            "location": "Gillingham",
+            "team1": "Team Resilience",
+            "team2": "Team Resilience"
+        },
+
+        {
+            "id":2,
+            "game": "Overwatch",
+            "time": "22:00 - 23:00",
+            "title": "The special tournament",
+            "location": "Gillingham",
+            "team1": "Team Resilience",
+            "team2": "Team Resilience"
+        },
+
+        {
+            "id":3,
+            "game": "Overwatch",
+            "time": "22:00 - 23:00",
+            "title": "The special tournament",
+            "location": "Gillingham",
+            "team1": "Team Resilience",
+            "team2": "Team Resilience"
+        },
+
+        {
+            "id":4,
+            "game": "Overwatch",
+            "time": "22:00 - 23:00",
+            "title": "The special tournament",
+            "location": "Gillingham",
+            "team1": "Team Resilience",
+            "team2": "Team Resilience"
+        },
+
+        {
+            "id":5,
+            "game": "Overwatch",
+            "time": "22:00 - 23:00",
+            "title": "The special tournament",
+            "location": "Gillingham",
+            "team1": "Team Resilience",
+            "team2": "Team Resilience"
+        },
+
+        {
+            "id":6,
+            "game": "Overwatch",
+            "time": "22:00 - 23:00",
+            "title": "The special tournament",
+            "location": "Gillingham",
+            "team1": "Team Resilience",
+            "team2": "Team Resilience"
+        }
+    ]
+}
