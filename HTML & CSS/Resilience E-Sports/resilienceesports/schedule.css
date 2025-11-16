@@ -1,0 +1,282 @@
+@font-face {
+    font-family: regular;
+    src: url("fonts/font.otf");
+}
+
+/* second purple if you were wondering*/
+:root {
+    --spurple: #e02fff;
+    --secondary: #333333;
+    --otherblue: #2753e7;
+    --iconsize: 20px;
+    --twitch: #6441A4;
+    --instagram: #dd2a7b;  
+}
+
+*{font-family: regular;}
+
+body {margin: 0;  background-color: black }
+
+h1 {
+font-size: 2vmin;
+transition: all 0.5s;
+}
+
+
+
+/* Navbar */
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    height: 69px;
+
+    background-color: transparent;
+
+    gap: 2vw;
+
+    padding-left: 100px;
+    padding-right: 200px;
+
+    z-index: 9;
+
+    
+}
+
+.navbar > button {
+    font-size: 2.5vmin;
+
+    border: none;
+
+    background-color: transparent;
+    color: white;
+
+    transition: all 0.2s;
+}
+
+.navbar > button:hover {
+    border-bottom: 2px solid var(--spurple);
+}
+
+.navbar > #special {
+
+    background-color: var(--spurple);
+
+    border-radius: 20px;
+    width: 50px;
+    margin-left: auto;
+}
+
+.navbar > button > a:visited { text-decoration: none;}
+.navbar > button > a { text-decoration: none; color: inherit;}
+.navbar > button > a:link { text-decoration: none;}
+.navbar > button > a:hover { text-decoration: none;}
+.navbar > button > a:active { text-decoration: none;}
+
+/* Title */
+.title{
+    display: inline;
+    font-size: 5vmin;
+    color: white;
+
+    border-bottom: 3px solid var(--spurple);
+}
+
+/* Schedule Grid */
+/* Sell Us Section */
+.sellus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:10px;
+
+    margin-top: 60px;
+}
+
+
+/* Schedule Cards */
+
+.scheduleCard{
+    display: inline-block;
+    color: white;
+
+    background-color: var(--secondary);
+
+    border-radius: 20px;
+}
+
+.scheduleCard > .cardHead{
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+
+    width: 400px;
+
+    margin-bottom: 30px;
+}
+
+.scheduleCard > .cardHead > .gameTag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    width: 145px;
+    height: 40px;
+
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.scheduleCard > .cardHead > .times{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+    background-color: rgb(88, 88, 88);
+    width: 145px;
+    height: 40px;
+
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.scheduleCard > .cardBody{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 400px;
+
+    margin-bottom:20px;
+}
+
+.scheduleCard > .cardFoot{
+    width: 400px;
+    word-wrap: break-word;
+    text-align: center;
+    text-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.scheduleCard > .cardFoot > div:nth-of-type(1){ /*.team doesn't work for some reason*/
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--spurple);
+
+    border-radius: 20px;
+    height: 30px;
+}
+
+
+.scheduleCard > .cardFoot > div:nth-of-type(2){ margin: 5px;}
+
+.scheduleCard > .cardFoot > div:nth-of-type(3){
+    display: inline-flex;
+    align-items: center;
+    background-color: rebeccapurple;
+
+    border-radius: 20px;
+    height: 30px;
+}
+
+#Overwatch{background-color: #FA9C1D;}
+#League{background-color: #66a3a3;}
+#Rocket{background-color: #1e88e5;}
+#Apex{background-color: #b02b2c;}
+#F1{background-color: #ff1e00;}
+#Valorant{background-color: #0f1822;}
+
+
+
+/* Follow us (Footer) */
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:10px;
+
+    margin-top: 30px;
+}
+
+.copyright{
+    text-align: center; 
+    color: white; 
+    margin-top: 30px;
+}
+
+.footer > a > button{
+    border: none;
+    border-radius: 20px;
+
+    width: auto;
+    height: auto;
+
+    background-color: var(--otherblue);
+    color: white;
+
+    font-size: 3vmin;
+}
+
+.footer > a > .twitch{
+    background-color: var(--twitch);
+}
+
+.footer > a > .instagram{
+    background-color: var(--instagram);
+}
+
+.footer > a > .twitter{
+    background-color: rgb(39, 34, 34);
+}
+
+
+.footer > a > button > img{
+    width: var(--iconsize);
+    height: var(--iconsize);
+
+    filter:invert();
+ }
+
+ /* Filter Buttons */
+.filter {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 50px;
+}
+
+ .filter >  button > image {
+    width: 10px;
+    height: 10px;
+    object-fit:cover;
+    transform-origin: 50% 50%;
+ }
+
+ .filter > button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    border-radius: 50%;
+
+    width: 70px;
+    height: 70px;
+
+ }
+
+ .filter > button:nth-child(1){background-color: #FA9C1D;}
+ .filter > button:nth-child(2){background-color:#66a3a3;}
+ .filter > button:nth-child(3){background-color: #1e88e5;}
+ .filter > button:nth-child(4){background-color: #b02b2c;}
+ .filter > button:nth-child(5){background-color: #ff1e00;}
+ .filter > button:nth-child(6){background-color: #0f1822;}

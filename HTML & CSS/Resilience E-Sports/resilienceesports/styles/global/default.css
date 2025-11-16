@@ -1,0 +1,12 @@
+*{font-family: Days One;}
+
+body {
+    margin: 0; 
+    background-color: black;
+    background-image: url("/images/Vector.png");
+}
+
+h1 {
+font-size: 2vmin;
+transition: all 1s;
+}
