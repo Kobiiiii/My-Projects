@@ -1,0 +1,17 @@
+/* Initiating variables */
+:root {
+    --calm: #FEFAE0;
+    --default-green: #606C38;
+    --dark-green: #283618;
+}
+
+/* There is a margin: 0 here because I dont want the element that holds everything together to have a margin */
+
+body {
+    background-color: var(--calm);
+    margin: 0;
+}
+
+/* There is no margin here to stop elements from having unecessary margins */
+
+* { font-size: 20px; font-family: inter; margin: 0; padding: 0;}
